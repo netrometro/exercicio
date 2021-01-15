@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+html, body {
+  background-color: #e5edff;
+  height: 100%;
+  margin: 0px 15px;
+}
+
+h2 {
+  color: #322153;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+p {
+  color: #666666;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+#armario {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#conteudo {
+  flex: 1;
+}
+
+#topo img {
+  margin-top: 80px;
+}
+
+.botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #29a361;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.botao div {
+  padding: 10px;
+}
+
+.imagem {
+  background-color: #248f55;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.texto {
+  width: 100%;
+}
+
+#fundo a {
+  text-decoration: none;
+}
